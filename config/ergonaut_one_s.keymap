@@ -94,8 +94,8 @@
 
         nav {
             bindings = <
-&kp LS(Z)  &kp LS(S)  &kp LS(F)  &kp LS(H)  &none   &kp C_VOL_UP  &kp HOME  &kp PRINTSCREEN  &kp PG_UP      &kp CAPS
-&kp LS(A)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &none   &kp C_MUTE    &kp LEFT  &kp UP           &kp RIGHT      &kp INS
+&kp LC(Z)  &kp LC(S)  &kp LC(F)  &kp LC(H)  &none   &kp C_VOL_UP  &kp HOME  &kp PRINTSCREEN  &kp PG_UP      &kp CAPS
+&kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none   &kp C_MUTE    &kp LEFT  &kp UP           &kp RIGHT      &kp INS
 &none      &none      &none      &none      &none   &kp C_VOL_DN  &kp END   &kp DOWN         &kp PAGE_DOWN  &none
                                  &trans     &trans  &trans        &kp C_PP  &kp C_NEXT       &kp C_PREV
             >;
