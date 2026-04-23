@@ -75,10 +75,10 @@
         dvorak {
             display-name = "MAIN";
             bindings = <
-&kp SQT     &kp COMMA   &kp DOT      &kp P        &kp Y        &kp F        &kp G        &kp C        &kp R       &kp L
-&hm LGUI A  &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I        &kp D        &hm LSHFT H  &hm LCTRL T  &hm LALT N  &hm LGUI S
-&kp SEMI    &kp Q       &kp J        &kp K        &kp X        &kp B        &kp M        &kp W        &kp V       &kp Z
-                                     &to_dr       &lt 2 SPACE  &lt 3 ENTER  &sl 3        &lt 2 BSPC   &lt 5 DEL
+&kp SQT     &kp COMMA   &kp DOT      &kp P        &kp Y        &kp F        &kp G            &kp C        &kp R       &kp L
+&hm LGUI A  &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I        &kp D        &hm LSHFT H      &hm LCTRL T  &hm LALT N  &hm LGUI S
+&kp SEMI    &kp Q       &kp J        &kp K        &kp X        &kp B        &kp M            &kp W        &kp V       &kp Z
+                                     &to_dr       &lt 2 SPACE  &lt 3 ENTER  &lt 2 BACKSPACE  &sl 3        &lt 5 DEL
             >;
         };
 
@@ -87,7 +87,7 @@
 &kp W           &dr_soft_sign   &kp Z        &dr_comma         &dr_dot  &kp P        &kp D              &kp R        &kp L            &kp X
 &hm LEFT_GUI E  &hm LEFT_ALT B  &hm RCTRL T  &hm LEFT_SHIFT J  &kp F    &kp K        &hm RIGHT_SHIFT Y  &hm RCTRL N  &hm RIGHT_ALT C  &hm RIGHT_GUI H
 &kp A           &kp APOS        &kp LBKT     &kp S             &kp DOT  &kp COMMA    &kp V              &kp G        &kp U            &kp SEMI
-                                             &to_dv            &trans   &lt 4 ENTER  &sl 4              &trans       &trans
+                                             &to_dv            &trans   &lt 4 ENTER  &trans             &sl 4        &trans
             >;
         };
 
@@ -105,7 +105,7 @@
 &kp RBKT         &kp GRAVE  &kp PLUS  &kp EQUAL   &kp ESCAPE   &kp MINUS  &kp UNDER      &kp BSLH      &kp FSLH              &kp LBKT
 &kp EXCLAMATION  &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp N1           &kp N2     &kp N3    &kp N4      &kp N5       &kp N6     &kp N7         &kp N8        &kp N9                &kp N0
-                                      &trans      &trans       &trans     &kp TAB        &trans        &trans
+                                      &trans      &trans       &trans     &trans         &kp TAB       &trans
             >;
         };
 
@@ -114,7 +114,7 @@
 &kp O            &kp GRAVE  &kp PLUS  &kp EQUAL   &kp ESCAPE   &kp MINUS  &kp UNDER      &kp BSLH      &kp Q                 &kp I
 &kp EXCLAMATION  &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp N1           &kp N2     &kp N3    &kp N4      &kp N5       &kp N6     &kp N7         &kp N8        &kp N9                &kp N0
-                                      &trans      &trans       &trans     &kp TAB        &trans        &trans
+                                      &trans      &trans       &trans     &trans         &kp TAB       &trans
             >;
         };
 
